@@ -1,0 +1,480 @@
+
+
+@media screen and (min-width: 1120px) {
+    #mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    #desk {
+        display: none;
+    }
+}
+
+body {
+    background-color: black;
+    color: white;
+    
+}
+#menu a{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bruno Ace SC', cursive;
+    color: white;
+    font-size: 15px;
+}
+#menu a:hover {
+    text-decoration: line-through;
+    color: red;
+    transition: all 0.5s;
+}
+#container {
+    border-radius: 10px;
+    background: url(img/fundo1.jpg);
+    width: 100%;
+    height: 200px;
+    text-align: center;
+   
+}
+#container2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+#container2 h1 {
+    text-decoration: underline red;
+}
+#r, #w {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+#r{
+    color: red;
+}
+#w {
+    color: white;
+}
+
+#inform {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+#inform h2{
+    text-decoration: underline red;
+}
+#inform p {
+    font-size: 18px;
+}
+#hr {
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+footer {
+    text-align: center;
+    margin-bottom: 18px;
+    font-size: 10px;
+}
+
+#hover-mobile {
+    width: auto;
+    transition: all 1s;
+    animation: animation;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+#hover-mobile1 {
+    width: auto;
+    height: 1000px;
+    transition: all 1s;
+    animation: animation;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes animation{
+
+    from {
+        opacity: 0;
+       
+    }
+    to {
+        opacity: 1;
+       
+    }    
+}
+
+@-webkit-keyframes animation1{
+
+    from {
+       opacity: 1;
+        
+    }
+    to {
+       opacity: 0;
+        
+    }    
+}
+@-webkit-keyframes animation3{
+
+    from {
+       width: 80px;
+        
+    }
+    to {
+       width: 100px;
+    }    
+}
+@-webkit-keyframes animation4{
+
+    from {
+       width: 50px;
+        
+    }
+    to {
+       width: 70px;
+    }    
+}
+
+
+#contact {
+    text-align: center;
+    color: red;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bruno Ace SC', cursive;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#contact i{
+    margin-top: 8px;
+    padding-left: 5px;
+    font-size: 80px;
+    padding: 12px;
+    color: white;
+}
+#contact i:hover {
+    color: red;
+    transition: all 0.5s;
+}
+
+#copy {
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bruno Ace SC', cursive;
+} 
+#copy a {
+    text-decoration: none;
+    color: red;
+}
+#copy a:hover {
+    font-size: 12px;
+    transition: all 0.5s;
+}
+/**#front {
+    position: relative;
+    top: 0;
+}**/
+#btn {
+    margin-top: 10px;
+    text-align: center;
+}
+/**#first{
+    position:
+    top: -2100px;
+    animation: animation1;
+    transition: all 1s;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}**/
+#mobile {
+    clear: both;
+}
+#spotfy {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+#aj7 h2{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bruno Ace SC', cursive;
+    text-transform: uppercase;
+    color: red;
+}
+#patro {
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#cont-bottom {
+    margin-top: 15px;
+    text-align: center;
+}
+#contorn {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#gallery {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#gallery img {
+    border-radius: 10px;
+}
+#name {
+    border-radius: 10px;
+    text-align: center;
+    background: rgba(167, 160, 160, 0.253);
+    width: 56%;
+    margin: 5px auto;
+}
+#spot {
+    position: relative;
+    bottom: -40px;
+}
+#calender {
+    text-align: center; 
+} 
+
+#card {
+    margin: 10px auto;
+}
+#ingresso {
+   margin-bottom: 0px;
+}
+
+#logo {
+    border-radius: 200px;
+}
+#logo:hover {
+    border: 2px solid red;
+}
+
+/**fimMobile**/
+
+#desk{
+    margin: 0;
+    padding: 0;
+    background: url(img/fundo2.png),
+                linear-gradient(50deg, black, white, black, white);
+    background-attachment: fixed;            
+}
+#containerDesk {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#leftDesk {
+    width: 55%;
+}
+#rightDesk {
+    width: 45%;
+    
+}
+#capaDesk {
+    padding-top: 7%;
+    border-radius: 10px;
+    text-align: center;
+    /*background-image: url(img/fundo1.jpg);*/
+    height: 310px;
+}
+#menuDesk a{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bruno Ace SC', cursive;
+    color: white;
+    font-size: 20px;
+}
+#menuDesk a:hover {
+    text-decoration: line-through;
+    color: red;
+    transition: all 0.5s;
+}
+#yout {
+    border-radius: 20px;
+}
+#galeriaDesk {
+    margin-top: 20px;
+}
+#img{
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 10px;
+}
+#namedesk {
+    text-align: center;
+    background: rgba(167, 160, 160, 0.6);
+    border-radius: 10px;
+}
+#img img {
+    border-radius: 10px;
+}
+.navbar {
+    height: 110px;
+}
+#firstDesk {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#secondDesk {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#informDesk {
+    background: rgb(255,255,255,0.6);
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px ;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    margin-bottom: 5px;
+}
+#informDesk h2 {
+    text-decoration: underline red;
+}
+#informDesk img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+#container2Desk {
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    background: black;
+    font-size: 20px;
+}
+
+#container2Desk h1 {
+    text-decoration: underline red;
+}
+#contactMobile {
+    text-align: center;
+    color: red;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bruno Ace SC', cursive;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#contactMobile i{
+    margin-top: 8px;
+    padding-left: 5px;
+    font-size: 30px;
+    padding: 12px;
+    color: white;
+}
+#contactMobile i:hover {
+    color: red;
+    transition: all 0.5s;
+}
+#text {
+    padding: 30px 8px 0 8px;
+    height: 170px;
+    margin-bottom: 5px;
+    background: rgb(255,255,255,0.6);
+    font-size: 20px;
+    border-radius: 0 0 10px 10px ;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+}
+#samba {
+    color: red;
+    font-family: 'Bruno Ace SC', cursive;
+    text-decoration: line-through black;
+    font-weight: bold;
+}
+#logoDesk {
+    border-radius: 200px;
+}
+#logoDesk:hover {
+    border: 2px solid red;
+    animation: animation3;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.carousel-item img {
+    max-height: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+#contactDesk {
+    background: rgb(255,255,255,0.6);
+    text-align: center;
+    color: red;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bruno Ace SC', cursive;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#contactDesk p {
+    color: black;
+}
+
+#contactDesk i{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 8px;
+    padding-left: 5px;
+    font-size: 80px;
+    padding: 12px;
+    color: black;
+    /*color: rgb(255,255,255,0.6);*/
+    background: linear-gradient(50deg,red, white, black);
+    border-radius: 200px;
+}
+#contactDesk i:hover {
+    color: red;
+    transition: all 0.5s;
+}
+#contactDesk1 {
+    margin-top: 16px;
+}
+
+#iconAJ7:hover {
+    border-radius: 100px;
+    border: 1px solid white;
+    animation: animation4;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    transition: all 2s;
+}
